@@ -7,4 +7,17 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="fond_ecran">#EC890D</color>
+    <color name="fond_titre">#4CAF50</color>
+    <color name="texte_color">#fff</color>
+    <color name="fond_label">#F4511E</color>
+    <color name="fond_edit">#FFC107</color>
+    <color name="fond_radio">#E4CBAA</color>
+    <color name="fond_tres">#078074</color>
+    <color name="fond_btn_pressed">#FF93B8</color>
+    <color name="fond_btn_enabled">#E40F58</color>
+    <color name="border_btn_enabled">#A5043A</color>
+    <color name="border_btn_pressed">#4E363F</color>
+
 </resources>
