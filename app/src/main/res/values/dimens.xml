@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_titre">10dp</dimen>
+    <dimen name="padding_titre">10dp</dimen>
+    <dimen name="text_taille">20sp</dimen>
+    <dimen name="text_res">30sp</dimen>
+    <dimen name="border_btn">3dp</dimen>
+    <dimen name="radius_btn">5dp</dimen>
+    <dimen name="marginTop_res">40dp</dimen>
+    <dimen name="marginLeft_edit">10dp</dimen>
+    <dimen name="padding_btn">5dp</dimen>
+    <dimen name="padding_textView">2dp</dimen>
+    <dimen name="margin_btn">7dp</dimen>
+
+</resources>
