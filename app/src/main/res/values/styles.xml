@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BasestyleTextView">
+
+    </style>
+
+    <style name="TitreStyle">
+
+    </style>
+
+    <style name="LabelStyle">
+
+    </style>
+
+    <style name="EditTextStyle">
+
+    </style>
+
+    <style name="ButtonStyle">
+
+    </style>
+
+    <style name="RadioButtonStyle">
+
+    </style>
+</resources>
