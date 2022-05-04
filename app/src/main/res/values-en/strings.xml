@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="titre_app">Purchase price calculation</string>
+    <string name="label1">Amount in DH : </string>
+    <string name="label2">Currency :  </string>
+    <string name="bouton1">Convert</string>
+    <string name="bouton2">Initialize</string>
+    <string name="default_res">Montant in euro : 0.00</string>
+
+</resources>

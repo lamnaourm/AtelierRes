@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Calcul PA</string>
+
+
+    <string name="titre_app">Calcul prix achat</string>
+    <string name="label1">Montant en DH : </string>
+    <string name="label2">Devise : </string>
+    <string name="device1">Dollar : </string>
+    <string name="device2">Euro : </string>
+    <string name="bouton1">Convertir</string>
+    <string name="bouton2">Initailiser</string>
+    <string name="default_res">Montant en Euro : 0.00</string>
+
 </resources>
