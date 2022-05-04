@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="dollar_taux">9</integer>
+    <integer name="euro_taux">12</integer>
+
+</resources>
