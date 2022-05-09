@@ -37,6 +37,7 @@
         <RadioButton
             android:id="@+id/rd1"
             style="@style/RadioButtonStyle"
+            android:checked="true"
             android:text="@string/device1" />
 
         <RadioButton

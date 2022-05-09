@@ -6,6 +6,6 @@
     <string name="label2">Currency :  </string>
     <string name="bouton1">Convert</string>
     <string name="bouton2">Initialize</string>
-    <string name="default_res">Montant in euro : 0.00</string>
+    <string name="default_res">Amount in euro : 0.00</string>
 
 </resources>
