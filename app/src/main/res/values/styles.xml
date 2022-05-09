@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="BasestyleTextView">
-
+    <style name="BasestyleTextView" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_titre</item>
+        <item name="android:padding">@dimen/padding_titre</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_res</item>
+        <item name="android:textColor">@color/texte_color</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="TitreStyle">
-
+    <style name="BasestyleTextView.TitreStyle">
+        <item name="android:background">@color/fond_titre</item>
     </style>
 
-    <style name="LabelStyle">
-
+    <style name="BasestyleTextView.TResStyle">
+        <item name="android:background">@color/fond_tres</item>
+        <item name="android:layout_marginTop">@dimen/marginTop_res</item>
     </style>
 
     <style name="EditTextStyle">
@@ -24,4 +32,5 @@
     <style name="RadioButtonStyle">
 
     </style>
+
 </resources>
