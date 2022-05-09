@@ -20,7 +20,7 @@
             android:text="@string/label1" />
 
         <EditText
-            android:id="@+id/tval"
+            android:id="@+id/eval"
             style="@style/EditTextStyle" />
     </LinearLayout>
 
@@ -37,13 +37,13 @@
         <RadioButton
             android:id="@+id/rd1"
             style="@style/RadioButtonStyle"
-            android:checked="true"
             android:text="@string/device1" />
 
         <RadioButton
             android:id="@+id/rd2"
+            android:checked="true"
             style="@style/RadioButtonStyle"
-            android:text="@string/device1" />
+            android:text="@string/device2" />
     </RadioGroup>
 
     <LinearLayout
