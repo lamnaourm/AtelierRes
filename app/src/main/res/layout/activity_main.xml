@@ -12,6 +12,16 @@
         style="@style/BasestyleTextView.TitreStyle"
         android:text="@string/titre_app"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/bouton1"/>
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/bouton2"/>
+    </LinearLayout>
     <TextView
         style="@style/BasestyleTextView.TResStyle"
         android:text="@string/default_res"/>

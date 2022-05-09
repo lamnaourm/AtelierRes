@@ -21,16 +21,45 @@
         <item name="android:layout_marginTop">@dimen/marginTop_res</item>
     </style>
 
-    <style name="EditTextStyle">
-
+    <style name="LabelStyle" parent="android:Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_taille</item>
+        <item name="android:textColor">@color/texte_color</item>
+        <item name="android:padding">@dimen/padding_textView</item>
+        <item name="android:background">@color/fond_label</item>
     </style>
 
-    <style name="ButtonStyle">
-
+    <style name="EditTextStyle" parent="android:Widget.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_taille</item>
+        <item name="android:inputType">number</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeft_edit</item>
+        <item name="android:layout_marginRight">@dimen/marginLeft_edit</item>
+        <item name="android:background">@color/fond_edit</item>
+        <item name="android:padding">@dimen/padding_textView</item>
     </style>
 
-    <style name="RadioButtonStyle">
+    <style name="ButtonStyle" parent="android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_taille</item>
+        <item name="android:textColor">@color/texte_color</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/state1</item>
+        <item name="android:layout_margin">@dimen/margin_btn</item>
+        <item name="android:padding">@dimen/padding_btn</item>
+    </style>
 
+    <style name="RadioButtonStyle" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_taille</item>
+        <item name="android:textColor">@color/texte_color</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">@dimen/padding_textView</item>
+        <item name="android:background">@color/fond_radio</item>
     </style>
 
 </resources>
